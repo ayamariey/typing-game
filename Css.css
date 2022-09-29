@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("pngtree-modern-double-color-futuristic-neon-background-image_351866\ -\ Copy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 0;
+  background-color: rgb(117, 100, 115);
+  font-size: 50px;
+  border-color: rgb(22, 22, 182);
+  border-radius: 50px;
+  color: rgb(22, 22, 182);
+}
+
+#w {
+  font-size: 50px;
+}
+
+#word {
+  width: 500px;
+  height: 30px;
+  background-color: rgb(220, 209, 197);
+}
+
+#but {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 15px;
+  border-color: rgb(22, 22, 182);
+  color: rgb(22, 22, 182);
+  background-color: rgb(117, 100, 115);
+  width: 150px;
+  height: 30;
+}
+
+.level {
+  background-color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  border-radius: 15px;
+  border-color: rgb(22, 22, 182);
+  padding: 5px;
+  color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 85%;
+  ;
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: absolute;
+  top: 75%;
+  left: 75%;
+  font-size: 30px;
+}
+
+@media (max-width: 280px) {
+#l{
+  left:81.75% ;
+}
+  h1 {
+    font-size: 20px;
+  }
+
+  #w {
+    font-size: 20px;
+  }
+
+  #word {
+    width: 200px;
+    height: 15px;
+  }
+#but{
+  width: 75px;
+  height: 15;
+}
+h2{font-size: 15px;}
+ 
+}
+
+@media (max-width: 540px) {
+  #l{
+    left:81.75% ;
+  }
+  h1 {
+    font-size: 30px;
+  }
+
+  #w {
+    font-size: 30px;
+  }
+
+  #word {
+    width: 300px;
+    height:20px;
+  }
+}
+#but{
+  width: 100px;
+  height: 25;
+}
